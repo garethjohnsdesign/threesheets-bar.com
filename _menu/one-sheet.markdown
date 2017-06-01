@@ -11,5 +11,18 @@ menu-item:
   - Orange Flower
   - Carbonated
   price: 8
+- title: Almond Flower Sour
+  ingredients:
+  - Almond Flower
+  - Beefeater Gin
+  - Egg White
+  - Lemon
+  price: 8
+- title: Rhubarb + Grape
+  ingredients:
+  - Fermented Rhubarb
+  - Gobernador Pisco
+  - Soda
+  price: 8
 ---
 
