@@ -31,6 +31,19 @@ section:
     sem nec elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia
     bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia
     quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.
+press:
+- quote: Vivamus sagittis lacus vel augue laoreet
+  cite: Time Out
+  link: http://www.timeout.com
+- quote: Praesent commodo cursus magna, vel scelerisque
+  cite: Bar Monthly
+  link: http://www.timeout.com
+- quote: Sem Adipiscing Cras Sollicitudin
+  cite: Egestas Sollicitudin
+  link: http://www.timeout.com
+- quote: Commodo Ultricies Nullam Fermentum
+  cite: The Guardian
+  link: http://www.google.com
 layout: about
 ---
 
