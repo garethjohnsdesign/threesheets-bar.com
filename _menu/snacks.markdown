@@ -7,7 +7,7 @@ menu-item:
   - Salt + Vinegar
   price: 3.5
 - title: Geata Olives
-  ingredients:
+  ingredients: 
   price: 3.5
 ---
 
