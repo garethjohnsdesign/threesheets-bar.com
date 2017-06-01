@@ -1,6 +1,7 @@
 ---
 title: Snacks
 date: 2017-06-01 19:38:00 Z
+position: 5
 menu-item:
 - title: Almonds
   ingredients:
