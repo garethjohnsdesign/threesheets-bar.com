@@ -27,12 +27,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_config.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_config.yml",
-		"oF": 0
-		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -407,12 +401,6 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
-	"\/_site\/feed.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/feed.xml",
-		"oF": 0
-		},
 	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -548,16 +536,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -832,19 +810,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_icons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
