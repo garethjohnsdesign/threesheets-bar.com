@@ -1,7 +1,7 @@
 ---
 title: Two Sheets
 date: 2017-06-01 19:38:00 Z
-position: 3
+position: 1
 menu-item:
 - title: Apple + Plum
   ingredients:
