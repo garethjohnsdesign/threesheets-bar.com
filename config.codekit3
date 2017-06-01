@@ -395,6 +395,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/_site\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/contact.html",
+		"oF": 0
+		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5196,6 +5202,12 @@
 		"oF": 0,
 		"oS": 0,
 		"sC": 1
+		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
 		},
 	"\/contact.md": {
 		"cS": 0,

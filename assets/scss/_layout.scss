@@ -109,6 +109,7 @@ h1, h2, h3, h4, h5, h6  {
 
 h2 {
   letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .sans {
@@ -165,12 +166,20 @@ h2 {
   @include sans;
 }
 
-.contact__follow span {
+.contact__follow__section {
+  padding-bottom: 1rem;
+}
+
+.contact__follow__title {
+  padding-bottom: 0.5rem;
+}
+
+.contact__follow__link a {
   color: $color--star-dust;
 }
 
 .contact__map {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   @include breakpoint(small) {
   height: 20rem;
   }

@@ -4163,7 +4163,8 @@ h6 {
   text-transform: uppercase; }
 
 h2 {
-  letter-spacing: 0.5rem; }
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem; }
 
 .sans {
   font-family: "P22UndergroundPro-Book", sans-serif;
@@ -4202,11 +4203,17 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.125rem; }
 
-.contact__follow span {
+.contact__follow__section {
+  padding-bottom: 1rem; }
+
+.contact__follow__title {
+  padding-bottom: 0.5rem; }
+
+.contact__follow__link a {
   color: #A0A0A0; }
 
 .contact__map {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   height: 20rem; }
   @media print, screen and (min-width: 40em) {
     .contact__map {

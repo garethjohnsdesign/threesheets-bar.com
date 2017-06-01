@@ -13,20 +13,20 @@ layout: default
   
   <div class="row align-center contact__address">
   	<div class="small-12 medium-8 columns text-center">
-    	<p>510b Kingsland Road, London E8 4AE — Map</p>
-Monday - Friday   8.30am—12.45am<br>
-Saturday   12pm—12.45am<br>
-Three Sheets is closed on Sundays.</p>
+    	<p><a href="{{site.address-link}}" target="_blank">{{site.address}}</a> — <a href="{{site.address-link}}" target="_blank">Map</a></p>
+<p>Monday - Friday — 8.30am-12.45am<br>
+Saturday — 12pm-12.45am</p>
+<p>Three Sheets is closed on Sundays</p>
   	</div>
   </div>
   
   <div class="row align-center contact__contact">
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Contact</h2>
-    	<p>Please contact us with any questions including but not limited to: our current cocktails, location, hours, private parties, information about suppliers, general life advice.
-Three Sheets doesn’t accept reservations.
-+44 (0)77 1864 8771
-info@threesheets-bar.com
+    	<p>{{content}}</p>
+<p>Three Sheets doesn’t accept reservations</p>
+<p>+44 (0)77 1864 8771</p>
+<p><a href="{{site.email}}">{{site.email}}</a></p>
 </p>
   	</div>
   </div>
@@ -35,7 +35,10 @@ info@threesheets-bar.com
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Follow</h2>
     	{% for social in site.social %}
-            <p><a href="{{social.link}}">{{social.title}}<br><span>{{social.short}}</span></a><br></p>
+    	<div class="contact__follow__section">
+            <div class="contact__follow__title"><a href="{{social.link}}">{{social.title}}</a></div>
+            <div class="contact__follow__link"><a href="{{social.link}}">{{social.short}}</a></div>
+      </div>
       {% endfor %}
   	</div>
   </div>
