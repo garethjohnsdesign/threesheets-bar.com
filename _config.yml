@@ -1,0 +1,60 @@
+---
+title: Three Sheets
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/journal/:title/"
+url: http://threesheets-bar.com
+description: A neighbourhood cocktail bar and coffee shop
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Three Sheets
+email: info@threesheets-bar.com
+google_site_verification:
+analytics:
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/threesheetslondon
+  instagram: https://www.instagram.com/threesheetslondon
+  twitter: https://www.twitter.com/threesheetslondon
+  soundcloud: https://soundcloud.com/threesheetslondon
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

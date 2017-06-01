@@ -1,0 +1,61 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}}">
+  
+{% if page.url == "/" %}
+<script>document.body.className += ' fade-out';</script>
+{% endif %}
+
+<div class="row expanded container">
+  <div class="column flex-container align-justify flex-dir-column text-center">
+    
+    <!-- Navigation -->
+    <div class="flex-child-shrink">
+      {% include navigation.html %}
+    </div>
+    <!-- End Navigation -->
+    
+    <!-- Content -->
+    <div class="flex-child-shrink">
+      {{ content }}
+    </div>
+    <!-- End Content --> 
+    
+    <!-- Footer -->
+    <div class="flex-child-shrink"> 
+      {% include footer.html %}
+    </div>
+    <!-- End Footer --> 
+    
+  </div>
+</div>
+
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>
+
+
+
+
+
+

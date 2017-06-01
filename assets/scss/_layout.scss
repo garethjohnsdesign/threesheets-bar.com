@@ -1,0 +1,142 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Mixins
+//   3. Typography
+//   4. Page
+//   5. Navigation
+//   6. Index
+//   7. Excerpt
+//   8. Projects
+//   9. Project
+//   10. Profile
+//   11. Services
+//   12. Contact
+//   13. Footer
+
+// 1. Global
+// ---------
+
+body {  
+  cursor: default;
+}
+
+body {
+  opacity: 1;
+  transition: $primary-transition;
+  height: 100%;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+:focus {
+  outline: 0;
+}
+
+[data-sticky] {
+  width: 100%;
+}
+
+a {
+  transition: $primary-transition;
+}
+
+// 2. Mixins
+// ---------
+
+
+@mixin padding {
+  padding-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+//     transition: $primary-transition;
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+// 3. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  text-transform: uppercase;
+}
+
+h2 {
+  letter-spacing: 0.5rem;
+}
+
+// 4. Index
+// ------
+
+
+.container {
+  height: 100vh;
+}
+
+.index__logo {
+  padding: 0rem 0rem 4rem 0rem;
+}
+
+// 5. Navigation
+// ------
+
+.navigation {
+  font-family: $sans-typeface;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.footer {
+  font-family: $sans-typeface;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+// 4. Page
+// ------
+
+.page {
+  padding-top: 4rem;
+}
+
+.page .row {
+  padding-bottom: 4rem;
+}
