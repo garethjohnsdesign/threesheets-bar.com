@@ -2759,11 +2759,11 @@ h6 {
   h2 {
     font-size: 1.6666666667rem; }
   h3 {
-    font-size: 2.1527777778rem; }
-  h4 {
-    font-size: 1.7361111111rem; }
-  h5 {
     font-size: 1.3888888889rem; }
+  h4 {
+    font-size: 1.25rem; }
+  h5 {
+    font-size: 1.1111111111rem; }
   h6 {
     font-size: 1.1111111111rem; } }
 
@@ -4145,6 +4145,9 @@ img {
 a {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
+.container {
+  height: 100vh; }
+
 .uppercase {
   text-transform: uppercase; }
 
@@ -4167,26 +4170,53 @@ h2 {
   letter-spacing: 0.15rem;
   text-transform: uppercase; }
 
-.container {
-  height: 100vh; }
-
 .index__logo {
   padding: 0rem 0rem 4rem 0rem; }
 
 .navigation {
   font-family: "P22UndergroundPro-Book", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   padding: 2rem 0rem 0rem 0rem; }
 
 .footer {
   font-family: "P22UndergroundPro-Book", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   padding: 0rem 0rem 2rem 0rem; }
 
 .page {
-  padding-top: 4rem; }
+  padding-top: 1rem; }
+  @media print, screen and (min-width: 40em) {
+    .page {
+      padding-top: 3rem; } }
+  @media print, screen and (min-width: 64em) {
+    .page {
+      padding-top: 3rem; } }
 
 .page .row {
   padding-bottom: 4rem; }
+
+.contact__follow {
+  font-family: "P22UndergroundPro-Book", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem; }
+
+.contact__follow span {
+  color: #A0A0A0; }
+
+.contact__map {
+  margin-bottom: 2rem;
+  height: 20rem; }
+  @media print, screen and (min-width: 40em) {
+    .contact__map {
+      height: 30rem; } }
+
+.menu__section h2 {
+  padding-bottom: 1rem; }
+
+.menu__section h6 {
+  margin-bottom: 0.5rem; }
+
+.menu__section p {
+  padding-top: 0.5rem; }

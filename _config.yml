@@ -53,10 +53,13 @@ future: true
 social:
 - title: Facebook
   link: https://www.facebook.com/threesheetslondon
+  short: "@threesheetslondon"
 - title: Instagram
   link: https://www.instagram.com/threesheetslondon
+  short: "@threesheetslondon"
 - title: Twitter
   link: https://www.twitter.com/threesheetslondon
+  short: "@threesheetslondon"
 compress_html:
   comments:
   - "<!-- "

@@ -58,6 +58,10 @@ a {
   transition: $primary-transition;
 }
 
+.container {
+  height: 100vh;
+}
+
 // 2. Mixins
 // ---------
 
@@ -80,6 +84,12 @@ a {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin sans {
+  font-family: $sans-typeface;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
 }
 
 // 3. Typography
@@ -111,10 +121,6 @@ h2 {
 // ------
 
 
-.container {
-  height: 100vh;
-}
-
 .index__logo {
   padding: 0rem 0rem 4rem 0rem;
 }
@@ -123,16 +129,12 @@ h2 {
 // ------
 
 .navigation {
-  font-family: $sans-typeface;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  @include sans;
   padding: 2rem 0rem 0rem 0rem;
 }
 
 .footer {
-  font-family: $sans-typeface;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  @include sans;
   padding: 0rem 0rem 2rem 0rem;
 }
 
@@ -140,9 +142,54 @@ h2 {
 // ------
 
 .page {
-  padding-top: 4rem;
+   @include breakpoint(small) {
+  padding-top: 1rem;
+  }
+  @include breakpoint(medium) { 
+  padding-top: 3rem;
+  }
+  @include breakpoint(large) { 
+  padding-top: 3rem;
+  }
 }
 
 .page .row {
   padding-bottom: 4rem;
+}
+
+// 4. Contact
+// ----------
+
+
+.contact__follow {
+  @include sans;
+}
+
+.contact__follow span {
+  color: $color--star-dust;
+}
+
+.contact__map {
+  margin-bottom: 2rem;
+  @include breakpoint(small) {
+  height: 20rem;
+  }
+  @include breakpoint(medium) { 
+  height: 30rem;
+  }
+}
+
+// 4. Menu
+// -------
+
+.menu__section h2 {
+  padding-bottom: 1rem;
+}
+
+.menu__section h6 {
+  margin-bottom: 0.5rem;
+}
+
+.menu__section p {
+  padding-top: 0.5rem;
 }

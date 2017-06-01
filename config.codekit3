@@ -63,6 +63,12 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
+	"\/_includes\/map-script.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/map-script.html",
+		"oF": 0
+		},
 	"\/_includes\/navigation.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -177,10 +183,234 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 321,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/android-chrome-256x256.png": {
+		"ft": 32768,
+		"iS": 1084,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-256x256.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 304,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/_site\/assets\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 592,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 599,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/_site\/assets\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/assets\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 598,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/fonts\/P22UndergroundPro-Book.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/P22UndergroundPro-Book.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/P22UndergroundPro-Book.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/P22UndergroundPro-Book.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/TiemposText-Medium.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/TiemposText-Medium.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/TiemposText-Medium.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/TiemposText-Medium.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/TiemposText-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/TiemposText-Regular.woff",
+		"oF": 0
+		},
+	"\/_site\/assets\/fonts\/TiemposText-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/fonts\/TiemposText-Regular.woff2",
+		"oF": 0
+		},
+	"\/_site\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/og-image.png": {
+		"ft": 32768,
+		"iS": 5514,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/img\/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/js\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/svgxuse-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/svgxuse-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/svgxuse.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/svgxuse-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/scss\/app.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_site\/contact\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
+		"oF": 0
+		},
+	"\/_site\/feed.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
+	"\/_site\/humans.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/humans.txt",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -195,10 +425,22 @@
 		"oAP": "\/_site\/journal\/index.html",
 		"oF": 0
 		},
+	"\/_site\/menu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu.html",
+		"oF": 0
+		},
 	"\/_site\/menu\/beer-and-cider\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/menu\/beer-and-cider\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/index.html",
 		"oF": 0
 		},
 	"\/_site\/menu\/one-sheet\/index.html": {
@@ -231,11 +473,37 @@
 		"oAP": "\/_site\/menu\/wine\/index.html",
 		"oF": 0
 		},
+	"\/_site\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/robots.txt",
+		"oF": 0
+		},
 	"\/_site\/sitemap.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
+		},
+	"\/_site\/uploads\/about.jpg": {
+		"ft": 16384,
+		"iS": 83721,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/uploads\/Image.jpg": {
+		"ft": 16384,
+		"iS": 272040,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/Image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/about.jpg": {
 		"ft": 16384,
