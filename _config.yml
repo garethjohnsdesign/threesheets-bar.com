@@ -51,10 +51,12 @@ per_page: 12
 date_format: "%d %B %Y"
 future: true
 social:
-  facebook: https://www.facebook.com/threesheetslondon
-  instagram: https://www.instagram.com/threesheetslondon
-  twitter: https://www.twitter.com/threesheetslondon
-  soundcloud: https://soundcloud.com/threesheetslondon
+- title: Facebook
+  link: https://www.facebook.com/threesheetslondon
+- title: Instagram
+  link: https://www.instagram.com/threesheetslondon
+- title: Twitter
+  link: https://www.twitter.com/threesheetslondon
 compress_html:
   comments:
   - "<!-- "
