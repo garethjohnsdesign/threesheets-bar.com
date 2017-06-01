@@ -1,6 +1,6 @@
 ---
 title: Menu
-position: 4
+position: 1
 image: "/assets/img/og-image.png"
 layout: index
 ---

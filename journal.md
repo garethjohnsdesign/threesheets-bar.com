@@ -1,6 +1,6 @@
 ---
 title: Journal
-position: 3
+position: 4
 image: "/assets/img/og-image.png"
 layout: index
 ---
