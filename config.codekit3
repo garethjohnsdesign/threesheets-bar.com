@@ -51,12 +51,6 @@
 		"oAP": "\/_includes\/excerpt.html",
 		"oF": 0
 		},
-	"\/_includes\/footer.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/footer.html",
-		"oF": 0
-		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -141,12 +135,6 @@
 		"oAP": "\/_menu\/one-sheet.markdown",
 		"oF": 0
 		},
-	"\/_menu\/snacks.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_menu\/snacks.markdown",
-		"oF": 0
-		},
 	"\/_menu\/three-sheets.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -163,18 +151,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_menu\/wine.markdown",
-		"oF": 0
-		},
-	"\/_site\/404.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/404.html",
-		"oF": 0
-		},
-	"\/_site\/about\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
@@ -389,34 +365,10 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/_site\/contact\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
-		"oF": 0
-		},
-	"\/_site\/feed.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/feed.xml",
-		"oF": 0
-		},
 	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/humans.txt",
-		"oF": 0
-		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal\/index.html",
 		"oF": 0
 		},
 	"\/_site\/menu.html": {
@@ -429,12 +381,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/menu\/beer-and-cider\/index.html",
-		"oF": 0
-		},
-	"\/_site\/menu\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/menu\/index.html",
 		"oF": 0
 		},
 	"\/_site\/menu\/one-sheet\/index.html": {
