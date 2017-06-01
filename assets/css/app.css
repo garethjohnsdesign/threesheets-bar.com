@@ -4171,6 +4171,9 @@ h2 {
   letter-spacing: 0.15rem;
   text-transform: uppercase; }
 
+.index__logo-and-tagline {
+  padding: 4rem 0rem; }
+
 .index__logo {
   padding: 0rem 0rem 4rem 0rem; }
 
