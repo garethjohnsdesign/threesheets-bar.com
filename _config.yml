@@ -41,8 +41,8 @@ highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Three Sheets
 email: info@threesheets-bar.com
-google_site_verification:
-analytics:
+google_site_verification: 
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
