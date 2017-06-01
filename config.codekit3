@@ -129,16 +129,40 @@
 		"oAP": "\/_layouts\/missing.html",
 		"oF": 0
 		},
+	"\/_menu\/beer-and-cider.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_menu\/beer-and-cider.markdown",
+		"oF": 0
+		},
 	"\/_menu\/one-sheet.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_menu\/one-sheet.markdown",
 		"oF": 0
 		},
+	"\/_menu\/snacks.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_menu\/snacks.markdown",
+		"oF": 0
+		},
+	"\/_menu\/three-sheets.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_menu\/three-sheets.markdown",
+		"oF": 0
+		},
 	"\/_menu\/two-sheets.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_menu\/two-sheets.markdown",
+		"oF": 0
+		},
+	"\/_menu\/wine.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_menu\/wine.markdown",
 		"oF": 0
 		},
 	"\/_site\/404.html": {
@@ -152,16 +176,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
-		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -405,10 +419,52 @@
 		"oAP": "\/_site\/journal\/index.html",
 		"oF": 0
 		},
+	"\/_site\/menu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/beer-and-cider\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/beer-and-cider\/index.html",
+		"oF": 0
+		},
 	"\/_site\/menu\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/menu\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/one-sheet\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/one-sheet\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/snacks\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/snacks\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/three-sheets\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/three-sheets\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/two-sheets\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/two-sheets\/index.html",
+		"oF": 0
+		},
+	"\/_site\/menu\/wine\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/menu\/wine\/index.html",
 		"oF": 0
 		},
 	"\/_site\/robots.txt": {
@@ -5224,6 +5280,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/menu.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/menu.html",
+		"oF": 0
 		},
 	"\/menu.md": {
 		"cS": 0,

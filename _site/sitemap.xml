@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://threesheets-bar.com/menu/beer-and-cider/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu/one-sheet/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu/snacks/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu/three-sheets/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu/two-sheets/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu/wine/</loc>
+<lastmod>2017-06-01T19:38:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://threesheets-bar.com/about/</loc>
 </url>
 <url>
@@ -14,5 +38,9 @@
 </url>
 <url>
 <loc>http://threesheets-bar.com/menu/</loc>
+</url>
+<url>
+<loc>http://threesheets-bar.com/menu.html</loc>
+<lastmod>2017-06-01T19:55:24+00:00</lastmod>
 </url>
 </urlset>

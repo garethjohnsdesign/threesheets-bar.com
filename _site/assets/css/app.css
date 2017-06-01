@@ -4162,6 +4162,11 @@ h6 {
 h2 {
   letter-spacing: 0.5rem; }
 
+.sans {
+  font-family: "P22UndergroundPro-Book", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase; }
+
 .container {
   height: 100vh; }
 
