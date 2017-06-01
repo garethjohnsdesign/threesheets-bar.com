@@ -28,8 +28,8 @@ info@threesheets-bar.com
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Follow</h2>
     	{% for social in site.social %}
-            {{social}}
-        {% endfor %}
+            <h6><a href="{{social.link}}">{{social.title}}</a></h6>
+      {% endfor %}
   	</div>
   </div>
   
