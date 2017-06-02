@@ -65,7 +65,7 @@ social:
   short: "@threesheetslondon"
 - title: Newsletter
   link: https://mailchimp.com
-  short: "Sign-Up"
+  short: Sign-Up
 compress_html:
   comments:
   - "<!-- "

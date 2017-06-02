@@ -1,8 +1,8 @@
 ---
 title: Wine
 date: 2017-06-01 19:38:00 Z
-type: Wine
 position: 4
+type: Wine
 menu-item:
 - title: Julie Balagny Fleurie
   ingredients:

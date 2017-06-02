@@ -1,8 +1,8 @@
 ---
 title: One Sheet
 date: 2017-06-01 19:38:00 Z
-type: Cocktails
 position: 0
+type: Cocktails
 menu-item:
 - title: French 75
   ingredients:
