@@ -1,8 +1,8 @@
 ---
 title: Beer + Cider
 date: 2017-06-01 19:38:00 Z
-type: Beer + Cider
 position: 3
+type: Beer + Cider
 menu-item:
 - title: Thornbridge
   ingredients:

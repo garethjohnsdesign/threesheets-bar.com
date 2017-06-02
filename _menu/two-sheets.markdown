@@ -1,8 +1,8 @@
 ---
 title: Two Sheets
 date: 2017-06-01 19:38:00 Z
-type: Cocktails
 position: 1
+type: Cocktails
 menu-item:
 - title: Apple + Plum
   ingredients:

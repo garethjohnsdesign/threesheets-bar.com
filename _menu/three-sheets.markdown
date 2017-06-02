@@ -1,8 +1,8 @@
 ---
 title: Three Sheets
 date: 2017-06-01 19:38:00 Z
-type: Cocktails
 position: 2
+type: Cocktails
 menu-item:
 - title: Stone Fence
   ingredients:
