@@ -2,7 +2,7 @@
 
 <!-- Navigation -->
 <div class="navigation">
-  <div class="shrink columns">
+  <div class="shrink columns show-for-medium">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
       {% if entry.url == current_page %}
@@ -27,7 +27,7 @@
     </ul>
   </div>
   
-  <div class="shrink columns hide-for-large top-bar-menu-mobile">
+  <div class="shrink columns show-for-small-only navigation__mobile">
     <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>

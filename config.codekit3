@@ -27,6 +27,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/_data\/navigation.yml": {
 		"ft": 8192,
 		"oA": 2,
@@ -117,6 +123,12 @@
 		"oAP": "\/_layouts\/index.html",
 		"oF": 0
 		},
+	"\/_layouts\/journal.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/journal.html",
+		"oF": 0
+		},
 	"\/_layouts\/menu.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -163,6 +175,42 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_menu\/wine.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2016-09-22-ridiculus-sem.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2016-09-22-ridiculus-sem.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-01-20-malesuada-tellus-purus-fringilla.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-01-20-malesuada-tellus-purus-fringilla.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-03-02-fermentum-ipsum-amet.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-03-02-fermentum-ipsum-amet.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-03-09-tristique-fringilla-sem.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-03-09-tristique-fringilla-sem.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-04-19-saari-win-european-award.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-04-19-saari-win-european-award.markdown",
+		"oF": 0
+		},
+	"\/_posts\/2017-04-19-venenatis-tortor.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2017-04-19-venenatis-tortor.markdown",
 		"oF": 0
 		},
 	"\/_site\/404.html": {
@@ -395,6 +443,12 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
+	"\/_site\/feed.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/feed.xml",
+		"oF": 0
+		},
 	"\/_site\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -407,16 +461,52 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
+	"\/_site\/journal.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal.html",
+		"oF": 0
+		},
+	"\/_site\/journal\/fermentum-ipsum-amet\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal\/fermentum-ipsum-amet\/index.html",
+		"oF": 0
+		},
 	"\/_site\/journal\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/journal\/index.html",
 		"oF": 0
 		},
-	"\/_site\/menu.html": {
+	"\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/menu.html",
+		"oAP": "\/_site\/journal\/malesuada-tellus-purus-fringilla\/index.html",
+		"oF": 0
+		},
+	"\/_site\/journal\/ridiculus-sem\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal\/ridiculus-sem\/index.html",
+		"oF": 0
+		},
+	"\/_site\/journal\/saari-win-european-award\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal\/saari-win-european-award\/index.html",
+		"oF": 0
+		},
+	"\/_site\/journal\/tristique-fringilla-sem\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal\/tristique-fringilla-sem\/index.html",
+		"oF": 0
+		},
+	"\/_site\/journal\/venenatis-tortor\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/journal\/venenatis-tortor\/index.html",
 		"oF": 0
 		},
 	"\/_site\/menu\/beer-and-cider\/index.html": {
@@ -521,15 +611,25 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/assets\/css\/app.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/app-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -804,6 +904,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5162,12 +5275,6 @@
 		"oS": 0,
 		"sC": 1
 		},
-	"\/contact.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/contact.html",
-		"oF": 0
-		},
 	"\/contact.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5176,10 +5283,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/contact.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/contact.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -5230,10 +5337,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/journal.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/journal.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -5258,12 +5365,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/menu.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/menu.html",
-		"oF": 0
-		},
 	"\/menu.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5272,10 +5373,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/menu.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/menu.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,

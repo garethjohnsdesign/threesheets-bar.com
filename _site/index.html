@@ -29,11 +29,32 @@
 </head>
 <body class="index">
 <script>document.body.className += ' fade-out';</script>
+<div class="overlay" id="overlay-mobile" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+      <ul class="align-middle">
+          <li class="element">
+            <a href="/" data-toggle="overlay-mobile toggle">Home</a>
+          </li>
+          <li class="element">
+            <a href="/menu/" data-toggle="overlay-mobile toggle">Menu</a>
+          </li>
+          <li class="element">
+            <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
+          </li>
+          <li class="element">
+            <a href="/journal/" data-toggle="overlay-mobile toggle">Journal</a>
+          </li>
+          <li class="element">
+            <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
+          </li>
+      </ul>
+  </nav>
+</div>
 <div class="row expanded container">
   <div class="column flex-container align-justify flex-dir-column text-center">
     <div class="flex-child-shrink">
 <div class="navigation">
-  <div class="shrink columns">
+  <div class="shrink columns show-for-medium">
     <ul class="menu align-center">
       <li class="active"><a href="/">Home</a></li>
       <li><a href="/menu/">Menu</a></li>
@@ -42,7 +63,7 @@
       <li><a href="/contact/">Contact</a></li>
     </ul>
   </div>
-  <div class="shrink columns hide-for-large top-bar-menu-mobile">
+  <div class="shrink columns show-for-small-only navigation__mobile">
     <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
@@ -51,12 +72,12 @@
     </div>
     <div class="flex-child-shrink">
       <section class="index__logo-and-tagline">
-  <div class="row index__logo">
-  	<div class="small-12 columns text-center">
+  <div class="row align-center index__logo">
+  	<div class="small-11 columns text-center">
     	<svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
   	</div>
   </div>
-  <div class="row index__tagline">
+  <div class="row index__tagline show-for-medium">
   	<div class="small-12 columns text-center">
     	A neighbourhood cocktail bar and coffee shop
   	</div>
@@ -65,11 +86,15 @@
     </div>
     <div class="flex-child-shrink"> 
       <div class="footer row small-collapse expanded align-center">
-  <div class="shrink columns">
+  <div class="shrink columns show-for-medium">
     <ul class="menu align-middle">
       <li><a href="/contact/">510b Kingsland Road, London E8 4AE</a></li>
       <li><a href="mailto:info@threesheets-bar.com">info@threesheets-bar.com</a></li>
     </ul>
+  </div>
+  <div class="shrink columns show-for-small-only text-center">
+      <p><a href="/contact/">510b Kingsland Road E8 4AE</a></p>
+      <p><a href="mailto:info@threesheets-bar.com">info@threesheets-bar.com</a></p>
   </div>
 </div>
     </div>

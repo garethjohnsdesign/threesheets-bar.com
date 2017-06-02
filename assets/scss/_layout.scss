@@ -134,8 +134,14 @@ h2 {
 // ------
 
 .navigation {
+  z-index: 100000;
   @include sans;
   padding: 2rem 0rem 0rem 0rem;
+}
+
+.navigation__mobile {
+  @include sans;
+  padding: 0rem 0rem 2rem 0rem;
 }
 
 .footer {
@@ -160,6 +166,29 @@ h2 {
 
 .page .row {
   padding-bottom: 4rem;
+}
+
+// 4. About
+// ----------
+
+.about .page p a {
+  border-bottom: 1px solid $color--star-dust;
+}
+
+.about__press {
+  @include sans;
+}
+
+.about__press__section {
+  padding-bottom: 1rem;
+}
+
+.about__press__title {
+  padding-bottom: 0.5rem;
+}
+
+.about__press__link a {
+  color: $color--star-dust;
 }
 
 // 4. Contact
@@ -206,3 +235,27 @@ h2 {
 .menu__section p {
   padding-top: 0.5rem;
 }
+
+// 4. Journal
+// ----------
+
+.journal .page p a {
+  border-bottom: 1px solid $color--star-dust;
+}
+
+.journal h6 {
+  @include sans;
+}
+
+.about__press__section {
+  padding-bottom: 1rem;
+}
+
+.about__press__title {
+  padding-bottom: 0.5rem;
+}
+
+.about__press__link a {
+  color: $color--star-dust;
+}
+

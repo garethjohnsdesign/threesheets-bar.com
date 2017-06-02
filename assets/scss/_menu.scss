@@ -3,7 +3,7 @@
   position: fixed;
   display:flex;
   align-items: stretch;
-  background: $color--zircon;
+  background: $color--white;
   top: 0;
   left: 0;
   height: 100vh;
@@ -31,10 +31,12 @@ justify-content: center;
   }
   ul {
     list-style: none;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
     li {
       font-family: $header-font-family;
-      font-size: 2rem;
-      padding: 16px;
+      font-size: 1.5rem;
+      padding: 1rem;
       min-height: 2rem;
       text-align: center;
       

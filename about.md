@@ -4,10 +4,10 @@ position: 2
 image: "/uploads/about.jpg"
 section:
 - title: About
-  text: Opened in September 2016, by brothers [Noel](http://test) and Max Venning,
+  text: Opened in September 2016, by brothers [Noel](https://www.instagram.com/noelvenning/) and [Max Venning](https://www.instagram.com/mrmaxvenning/),
     Three Sheets is a neighbourhood café-bar in Dalston specialising in drinks. We
     take great care selecting our wine and beer, which we rotate regularly. The coffee
-    is provided by Alchemy, which we serve alongside a range of snacks through the
+    is provided by [Alchemy](http://www.alchemycoffee.co.uk), which we serve alongside a range of snacks through the
     day, and into the evening. Our speciality is cocktails. With a weekly rotating
     seasonal menu, we aim to utilise modern kitchen techniques and ingredients to
     create drinks that are delicious and unique to the city. Noel recently moved to

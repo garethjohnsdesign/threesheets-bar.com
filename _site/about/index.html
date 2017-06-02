@@ -28,11 +28,32 @@
   <link rel="alternate" type="application/rss+xml" title="Three Sheets" href="http://threesheets-bar.com/feed.xml">
 </head>
 <body class="about">
+<div class="overlay" id="overlay-mobile" data-toggler=".open">
+  <nav class="overlay-menu align-middle">
+      <ul class="align-middle">
+          <li class="element">
+            <a href="/" data-toggle="overlay-mobile toggle">Home</a>
+          </li>
+          <li class="element">
+            <a href="/menu/" data-toggle="overlay-mobile toggle">Menu</a>
+          </li>
+          <li class="element">
+            <a href="/about/" data-toggle="overlay-mobile toggle">About</a>
+          </li>
+          <li class="element">
+            <a href="/journal/" data-toggle="overlay-mobile toggle">Journal</a>
+          </li>
+          <li class="element">
+            <a href="/contact/" data-toggle="overlay-mobile toggle">Contact</a>
+          </li>
+      </ul>
+  </nav>
+</div>
 <div class="row expanded container">
   <div class="column flex-container align-justify flex-dir-column text-center">
     <div class="flex-child-shrink">
 <div class="navigation">
-  <div class="shrink columns">
+  <div class="shrink columns show-for-medium">
     <ul class="menu align-center">
       <li><a href="/">Home</a></li>
       <li><a href="/menu/">Menu</a></li>
@@ -41,7 +62,7 @@
       <li><a href="/contact/">Contact</a></li>
     </ul>
   </div>
-  <div class="shrink columns hide-for-large top-bar-menu-mobile">
+  <div class="shrink columns show-for-small-only navigation__mobile">
     <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
@@ -55,43 +76,58 @@
       <img src="/uploads/about.jpg">
   	</div>
   </div>
-  <div class="row align-center about__about">
-  	<div class="small-12 medium-8 columns text-center">
-    	<h2>About</h2>
-    	<p>Opened in September 2016, by brothers Noel and Max Venning, Three Sheets is a neighbourhood café-bar in Dalston specialising in drinks. We take great care selecting our wine and beer, which we rotate regularly. The coffee is provided by Alchemy, which we serve alongside a range of snacks through the day, and into the evening.
-Our speciality is cocktails. With a weekly rotating seasonal menu, we aim to utilise modern kitchen techniques and ingredients to create drinks that are delicious and unique to the city.
-Noel recently moved to London from Manchester, where he was running Crazy Pedro’s, after stints at Trof and the Deaf Institute.   
-Max recently left the position of Operations Manager at the Drink Factory, overseeing 69 Colebrooke Row, and opening Bar Termini. Previously he worked at Socio Rehab, and set up Almost Famous Burgers in Manchester, as well as a period at Rick’s Cocktail Bar in Edinburgh.</p>
-  	</div>
-  </div>
-  <div class="row align-center about__wine">
-  	<div class="small-12 medium-8 columns text-center">
-    	<h2>Wine</h2>
-    	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.
-Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper.</p>
-  	</div>
-  </div>
-  <div class="row align-center about__food">
-  	<div class="small-12 medium-8 columns text-center">
-    	<h2>Food</h2>
-    	<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
-  	</div>
-  </div>
+    <div class="row align-center about__section">
+      <div class="small-12 medium-8 columns">
+        <h2>About</h2>
+        <p>Opened in September 2016, by brothers <a href="https://www.instagram.com/noelvenning/">Noel</a> and <a href="https://www.instagram.com/mrmaxvenning/">Max Venning</a>, Three Sheets is a neighbourhood café-bar in Dalston specialising in drinks. We take great care selecting our wine and beer, which we rotate regularly. The coffee is provided by <a href="http://www.alchemycoffee.co.uk">Alchemy</a>, which we serve alongside a range of snacks through the day, and into the evening. Our speciality is cocktails. With a weekly rotating seasonal menu, we aim to utilise modern kitchen techniques and ingredients to create drinks that are delicious and unique to the city. Noel recently moved to London from Manchester, where he was running Crazy Pedro’s, after stints at Trof and the Deaf Institute. Max recently left the position of Operations Manager at the Drink Factory, overseeing 69 Colebrooke Row, and opening Bar Termini. Previously he worked at Socio Rehab, and set up Almost Famous Burgers in Manchester, as well as a period at Rick’s Cocktail Bar in Edinburgh.</p>
+      </div>
+    </div>
+    <div class="row align-center about__section">
+      <div class="small-12 medium-8 columns">
+        <h2>Wine</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Vestibulum id ligula porta felis euismod semper.</p>
+      </div>
+    </div>
+    <div class="row align-center about__section">
+      <div class="small-12 medium-8 columns">
+        <h2>Food</h2>
+        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
+      </div>
+    </div>
   <div class="row align-center about__press">
   	<div class="small-12 medium-8 columns text-center">
-    	<h2>Press</h2>
-    	<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
+    	<h2>Press</h2>        
+    	<div class="about__press__section">
+            <div class="about__press__title"><a href="http://www.timeout.com" target="_blank">Vivamus sagittis lacus vel augue laoreet</a></div>
+            <div class="about__press__link"><a href="http://www.timeout.com" target="_blank">— Time Out</a></div>
+      </div>
+    	<div class="about__press__section">
+            <div class="about__press__title"><a href="http://www.timeout.com" target="_blank">Praesent commodo cursus magna, vel scelerisque</a></div>
+            <div class="about__press__link"><a href="http://www.timeout.com" target="_blank">— Bar Monthly</a></div>
+      </div>
+    	<div class="about__press__section">
+            <div class="about__press__title"><a href="http://www.timeout.com" target="_blank">Sem Adipiscing Cras Sollicitudin</a></div>
+            <div class="about__press__link"><a href="http://www.timeout.com" target="_blank">— Egestas Sollicitudin</a></div>
+      </div>
+    	<div class="about__press__section">
+            <div class="about__press__title"><a href="http://www.google.com" target="_blank">Commodo Ultricies Nullam Fermentum</a></div>
+            <div class="about__press__link"><a href="http://www.google.com" target="_blank">— The Guardian</a></div>
+      </div>
   	</div>
   </div>
 </section>
     </div>
     <div class="flex-child-shrink"> 
       <div class="footer row small-collapse expanded align-center">
-  <div class="shrink columns">
+  <div class="shrink columns show-for-medium">
     <ul class="menu align-middle">
       <li><a href="/contact/">510b Kingsland Road, London E8 4AE</a></li>
       <li><a href="mailto:info@threesheets-bar.com">info@threesheets-bar.com</a></li>
     </ul>
+  </div>
+  <div class="shrink columns show-for-small-only text-center">
+      <p><a href="/contact/">510b Kingsland Road E8 4AE</a></p>
+      <p><a href="mailto:info@threesheets-bar.com">info@threesheets-bar.com</a></p>
   </div>
 </div>
     </div>
