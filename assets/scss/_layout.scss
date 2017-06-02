@@ -262,8 +262,12 @@ h3 {
   @include sans;
 }
 
-.about__press__section {
+.about__press h2 {
   padding-bottom: 1rem;
+}
+
+.about__press__section {
+  padding-bottom: 2rem;
 }
 
 .about__press__title {
@@ -302,8 +306,8 @@ h3 {
   padding-bottom: 0.5rem;
 }
 
-.contact__follow__link a {
-  color: $color--star-dust;
+.contact__follow__link {
+  @include links ($color--star-dust, $color--black);
 }
 
 .contact__map {
@@ -318,4 +322,9 @@ h3 {
 
 .contact__colophon {
   @include links ($color--star-dust, $color--black);
+}
+
+
+.instagram img {
+  margin-bottom: 2rem;
 }

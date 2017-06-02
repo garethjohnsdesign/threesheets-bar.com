@@ -2,6 +2,11 @@
 title: About
 position: 2
 image: "/uploads/about.jpg"
+images:
+- "/uploads/about-01.jpg"
+- "/uploads/about-02.jpg"
+- "/uploads/about-03.jpg"
+- "/uploads/about-04.jpg"
 section:
 - title: About
   text: Opened in September 2016, by brothers [Noel](https://www.instagram.com/noelvenning/)

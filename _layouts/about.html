@@ -6,7 +6,13 @@ layout: default
    
   <div class="row align-center about__carousel wow animate-fade-in">
   	<div class="small-12 medium-8 columns text-center">
-      <img src="{{page.image}}">
+    	
+<div class="carousel">
+{% for image in page.images %}
+  <img src="{{image}}">
+{% endfor %}
+</div>
+<!-- End Food Carousel -->
   	</div>
   </div>
 
