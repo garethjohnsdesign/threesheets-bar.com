@@ -1,6 +1,8 @@
 ---
 title: One Sheet
 date: 2017-06-01 19:38:00 Z
+categories:
+- cocktails
 position: 0
 menu-item:
 - title: French 75
