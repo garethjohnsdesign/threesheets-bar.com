@@ -123,6 +123,12 @@
 		"oAP": "\/_layouts\/index.html",
 		"oF": 0
 		},
+	"\/_layouts\/instagram.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/instagram.html",
+		"oF": 0
+		},
 	"\/_layouts\/journal.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -388,20 +394,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/assets\/js\/app.js": {
+	"\/_site\/assets\/js\/instafeed.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/js\/min\/app-min.js": {
+	"\/_site\/assets\/js\/min\/instafeed-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oAP": "\/_site\/assets\/js\/min\/min\/instafeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -461,6 +467,12 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
+	"\/_site\/instagram\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/instagram\/index.html",
+		"oF": 0
+		},
 	"\/_site\/journal\/fermentum-ipsum-amet\/index.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -485,10 +497,10 @@
 		"oAP": "\/_site\/journal\/ridiculus-sem\/index.html",
 		"oF": 0
 		},
-	"\/_site\/journal\/saari-win-european-award\/index.html": {
+	"\/_site\/journal\/three-sheets-win-european-award\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/journal\/saari-win-european-award\/index.html",
+		"oAP": "\/_site\/journal\/three-sheets-win-european-award\/index.html",
 		"oF": 0
 		},
 	"\/_site\/journal\/tristique-fringilla-sem\/index.html": {
@@ -567,6 +579,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/uploads\/honda-ignition.jpg": {
+		"ft": 16384,
+		"iS": 90230,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/honda-ignition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/uploads\/Image.jpg": {
 		"ft": 16384,
 		"iS": 272040,
@@ -575,6 +597,46 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/about-01.jpg": {
+		"ft": 16384,
+		"iS": 77007,
+		"oA": 0,
+		"oAP": "\/_uploads\/about-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/about-02.jpg": {
+		"ft": 16384,
+		"iS": 133122,
+		"oA": 0,
+		"oAP": "\/_uploads\/about-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/about-03.jpg": {
+		"ft": 16384,
+		"iS": 185057,
+		"oA": 0,
+		"oAP": "\/_uploads\/about-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/about-04.jpg": {
+		"ft": 16384,
+		"iS": 90230,
+		"oA": 0,
+		"oAP": "\/_uploads\/about-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/about.jpg": {
@@ -797,11 +859,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/instafeed.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/instafeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/app-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/instafeed-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/instafeed-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -823,19 +903,6 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
-		},
-	"\/assets\/scss\/_animate.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_animate.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/assets\/scss\/_carousel.scss": {
 		"aP": 0,
@@ -915,19 +982,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/_loading.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_loading.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/assets\/scss\/_menu.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1000,6 +1054,316 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/bower_components\/desandro-matches-selector\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/desandro-matches-selector\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/desandro-matches-selector\/matches-selector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/matches-selector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/desandro-matches-selector\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/desandro-matches-selector\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/ev-emitter\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ev-emitter\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/ev-emitter\/ev-emitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/ev-emitter.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/ev-emitter\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/ev-emitter\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fizzy-ui-utils\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fizzy-ui-utils\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fizzy-ui-utils\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/fizzy-ui-utils\/utils.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/fizzy-ui-utils\/utils.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/flickity\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/flickity\/css\/flickity.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/css\/flickity.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/flickity\/dist\/flickity.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/dist\/flickity.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/flickity\/dist\/flickity.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/dist\/flickity.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/flickity\/dist\/flickity.pkgd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/dist\/flickity.pkgd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/dist\/flickity.pkgd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/add-remove-cell.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/add-remove-cell.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/animate.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/animate.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/cell.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/cell.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/drag.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/drag.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/flickity.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/flickity.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/index.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/lazyload.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/lazyload.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/page-dots.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/page-dots.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/player.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/player.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/prev-next-button.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/prev-next-button.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/js\/slide.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/js\/slide.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/flickity\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/flickity\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.bower.json": {
 		"ft": 524288,
@@ -3196,6 +3560,107 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/bower_components\/get-size\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/get-size\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/get-size\/get-size.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/get-size.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/get-size\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/get-size\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/instafeed.js\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/instafeed.js\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/instafeed.js\/instafeed.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/instafeed.js\/instafeed.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/instafeed.js\/instafeed.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/instafeed.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/instafeed.js\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/instafeed.js\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/instafeed.js\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/bower_components\/jquery-smooth-scroll\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -4949,6 +5414,135 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/tap-listener\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/tap-listener\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/tap-listener\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/tap-listener\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/tap-listener\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/tap-listener\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/tap-listener\/tap-listener.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/tap-listener\/tap-listener.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/unidragger\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/unidragger\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/unidragger\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/unidragger\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/unidragger\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/unidragger\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/unidragger\/unidragger.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/unidragger\/unidragger.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/unipointer\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/unipointer\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/unipointer\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/unipointer\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/unipointer\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/unipointer\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/unipointer\/unipointer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/unipointer\/unipointer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/what-input\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -5323,6 +5917,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/instagram.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/instagram.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/journal.md": {
 		"cS": 0,
 		"eF": 1,
@@ -5448,6 +6060,18 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
 			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/instafeed.js\/instafeed.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
+			"position": 7,
 			"type": 0
 			}
 		]

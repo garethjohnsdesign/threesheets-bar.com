@@ -15,7 +15,9 @@
     "svgxuse": "^1.2.3",
     "wow": "wow.js#^1.1.2",
     "jquery": "^3.1.1",
-    "jquery-smooth-scroll": "^2.1.2"
+    "jquery-smooth-scroll": "^2.1.2",
+    "instafeed.js": "^1.4.1",
+    "flickity": "^2.0.8"
   },
   "ignore": [
     "**/.*",
