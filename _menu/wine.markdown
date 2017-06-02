@@ -1,8 +1,7 @@
 ---
 title: Wine
 date: 2017-06-01 19:38:00 Z
-categories:
-- wine
+type: Wine
 position: 4
 menu-item:
 - title: Julie Balagny Fleurie

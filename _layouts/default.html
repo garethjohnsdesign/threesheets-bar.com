@@ -9,11 +9,7 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}}">
-  
-{% if page.url == "/" %}
-<script>document.body.className += ' fade-out';</script>
-{% endif %}
+<body>
 
 <!-- Overlay Menu -->  
 {% include overlay-menu.html %}
@@ -29,7 +25,7 @@ layout: compress
     <!-- End Navigation -->
     
     <!-- Content -->
-    <div class="flex-child-shrink">
+    <div class="flex-child-shrink animate-fade-in">
       {{ content }}
     </div>
     <!-- End Content --> 

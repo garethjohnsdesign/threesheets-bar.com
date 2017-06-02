@@ -27,9 +27,11 @@ body {
   height: 100%;
 }
 
+/*
 body.fade-out {
   opacity: 0;
 }
+*/
 
 svg {
   max-width: 100%;
@@ -59,8 +61,18 @@ a {
 }
 
 .container {
-  height: 100vh;
+  height: 100vh;  
+  @include breakpoint(small) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  @include breakpoint(medium) {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  }
 }
+
+
 
 // 2. Mixins
 // ---------
@@ -92,6 +104,19 @@ a {
   letter-spacing: 0.125rem;
 }
 
+// 2. Animations
+// ---------
+
+.animate-fade-in {
+  @include mui-animation(fade);
+  animation-duration: 0.5s;
+}
+
+.animate-fade-in-up {
+  @include mui-animation(slide(in, up, 2rem), fade);
+  animation-duration: 0.5s;
+}
+
 // 3. Typography
 // -------------
 
@@ -112,22 +137,14 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h3 {
+  letter-spacing: 0.25rem;
+}
+
 .sans {
   font-family: $sans-typeface;
   letter-spacing: 0.15rem;
   text-transform: uppercase;
-}
-
-// 4. Index
-// ------
-
-
-.index__logo-and-tagline {
-  padding: 4rem 0rem;
-}
-
-.index__logo {
-  padding: 0rem 0rem 4rem 0rem;
 }
 
 // 5. Navigation
@@ -147,13 +164,16 @@ h2 {
 .footer {
   @include sans;
   padding: 0rem 0rem 2rem 0rem;
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 // 4. Page
 // ------
 
 .page {
-   @include breakpoint(small) {
+  @include breakpoint(small) {
   padding-top: 1rem;
   }
   @include breakpoint(medium) { 
@@ -168,11 +188,74 @@ h2 {
   padding-bottom: 4rem;
 }
 
+
+// 4. Index
+// ------
+
+
+.index__logo-and-tagline {
+  padding: 4rem 0rem;
+}
+
+.index__logo {
+  padding: 0rem 0rem 4rem 0rem;
+  @include breakpoint(small only) {
+  padding: 0rem;
+  }
+}
+
+// 4. Menu
+// -------
+
+.menu__sub-navigation {
+  @include sans;
+  @include links ($color--star-dust, $color--black);
+}
+
+
+.menu__section {
+  padding-bottom: 2rem;
+}
+
+.menu__section__title {
+  padding-bottom: 0.5rem;
+}
+
+.menu__item {
+  padding-bottom: 2rem;
+}
+
+.menu__item__title {
+  @include sans;
+  padding-bottom: 0.5rem;
+}
+
+.menu__item__ingredients {
+  padding-bottom: 0.5rem;
+}
+
+.menu__item__price {
+  @include sans;
+  color: $color--star-dust;
+}
+
+
+/*
+.menu__section p {
+  padding-top: 0.5rem;
+}
+
+.menu__price {
+  padding-top: 0.5rem;
+}
+*/
+
+
 // 4. About
 // ----------
 
-.about .page p a {
-  border-bottom: 1px solid $color--star-dust;
+.about p a {
+  border-bottom: 1px solid $color--black;
 }
 
 .about__press {
@@ -188,6 +271,18 @@ h2 {
 }
 
 .about__press__link a {
+  color: $color--star-dust;
+}
+
+// 4. Journal
+// ----------
+
+.journal p a {
+  border-bottom: 1px solid $color--black;
+}
+
+.journal h6 {
+  @include sans;
   color: $color--star-dust;
 }
 
@@ -221,41 +316,6 @@ h2 {
   }
 }
 
-// 4. Menu
-// -------
-
-.menu__section h2 {
-  padding-bottom: 1rem;
+.contact__colophon {
+  @include links ($color--star-dust, $color--black);
 }
-
-.menu__section h6 {
-  margin-bottom: 0.5rem;
-}
-
-.menu__section p {
-  padding-top: 0.5rem;
-}
-
-// 4. Journal
-// ----------
-
-.journal .page p a {
-  border-bottom: 1px solid $color--star-dust;
-}
-
-.journal h6 {
-  @include sans;
-}
-
-.about__press__section {
-  padding-bottom: 1rem;
-}
-
-.about__press__title {
-  padding-bottom: 0.5rem;
-}
-
-.about__press__link a {
-  color: $color--star-dust;
-}
-

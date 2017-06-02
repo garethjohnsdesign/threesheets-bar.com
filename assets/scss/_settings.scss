@@ -57,11 +57,20 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+/*
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+*/
+
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: $color--black;
+$white: $color--white;
+
 $body-background: $white;
 // $body-background: $black;
 $body-font-color: $black;
@@ -157,7 +166,8 @@ $header-styles: (
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+// $paragraph-lineheight: 1.6;
+$paragraph-lineheight: 1.7;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
@@ -168,7 +178,7 @@ $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
 // $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-color-hover: scale-color($anchor-color, $lightness: 50%);
+$anchor-color-hover: $color--star-dust;
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -442,7 +452,7 @@ $menu-item-padding: 0.7rem 1rem;
 // $menu-item-color-active: $white;
 $menu-item-color-active: $color--star-dust;
 // $menu-item-background-active: get-color(primary);
-$menu-item-background-active: $color--white;
+$menu-item-background-active: transparent;
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
 $menu-border: $light-gray;

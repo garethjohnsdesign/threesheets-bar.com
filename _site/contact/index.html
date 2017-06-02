@@ -27,7 +27,7 @@
   <link rel="canonical" href="http://threesheets-bar.com/contact/">
   <link rel="alternate" type="application/rss+xml" title="Three Sheets" href="http://threesheets-bar.com/feed.xml">
 </head>
-<body class="contact">
+<body>
 <div class="overlay" id="overlay-mobile" data-toggler=".open">
   <nav class="overlay-menu align-middle">
       <ul class="align-middle">
@@ -69,7 +69,7 @@
   </div>
 </div>
     </div>
-    <div class="flex-child-shrink">
+    <div class="flex-child-shrink animate-fade-in">
       <section class="contact page">
   <div class="row align-center">
     <div class="small-12 medium-8 columns">
@@ -78,10 +78,10 @@
   </div>
   <div class="row align-center contact__address">
   	<div class="small-12 medium-8 columns text-center">
-    	<p><a href="https://goo.gl/maps/XR1xqbCxPG52" target="_blank">510b Kingsland Road, London E8 4AE</a> — <a href="https://goo.gl/maps/XR1xqbCxPG52" target="_blank">Map</a></p>
-<p>Monday - Friday — 8.30am-12.45am<br>
+    	<p class="sans"><a href="https://goo.gl/maps/XR1xqbCxPG52" target="_blank">510b Kingsland Road, London E8 4AE</a> — <a href="https://goo.gl/maps/XR1xqbCxPG52" target="_blank">Map</a></p>
+<p class="sans">Monday-Friday — 8.30am-12.45am<br>
 Saturday — 12pm-12.45am</p>
-<p>Three Sheets is closed on Sundays</p>
+<p class="sans">Three Sheets is closed on Sundays</p>
   	</div>
   </div>
   <div class="row align-center contact__contact">
@@ -89,9 +89,7 @@ Saturday — 12pm-12.45am</p>
     	<h2>Contact</h2>
     	<p><p>Please contact us with any questions including but not limited to: our current cocktails, location, hours, private parties, information about suppliers, general life advice</p>
 </p>
-<p>Three Sheets doesn’t accept reservations</p>
-<p><a href="tel:+44 (0)77 1864 8771">+44 (0)77 1864 8771</a></p>
-<p><a href="info@threesheets-bar.com">info@threesheets-bar.com</a></p>
+<p class="sans"><a href="tel:+44 (0)77 1864 8771">+44 (0)77 1864 8771</a><br><a href="info@threesheets-bar.com">info@threesheets-bar.com</a></p>
 </p>
   	</div>
   </div>
@@ -110,6 +108,10 @@ Saturday — 12pm-12.45am</p>
             <div class="contact__follow__title"><a href="https://www.twitter.com/threesheetslondon">Twitter</a></div>
             <div class="contact__follow__link"><a href="https://www.twitter.com/threesheetslondon">@threesheetslondon</a></div>
       </div>
+    	<div class="contact__follow__section">
+            <div class="contact__follow__title"><a href="https://mailchimp.com">Newsletter</a></div>
+            <div class="contact__follow__link"><a href="https://mailchimp.com">Sign-Up</a></div>
+      </div>
   	</div>
   </div>
   <div class="row align-center contact__colophon">
@@ -120,7 +122,7 @@ Saturday — 12pm-12.45am</p>
 </section>
 <script>
     function initMap() {
-    var threesheets = new google.maps.LatLng(51.543429, -0.075819);
+    var threesheets = new google.maps.LatLng(51.543915, -0.075818);
     var threesheetsoptions =
     {
         zoom: 15,
@@ -288,19 +290,24 @@ Saturday — 12pm-12.45am</p>
 ]
     };
     var threesheetsmap = new google.maps.Map(document.getElementById("threesheets_canvas"), threesheetsoptions);
+    var marker = {
+ path: "M8.122 18.071c-4.555-0.473-8.117-4.334-8.122-9.012 0-4.995 4.066-9.059 9.062-9.059s9.062 4.063 9.062 9.059c0 4.678-3.565 8.539-8.119 9.012v13.929h-1.883v-13.929zM9.064 1.883c-3.956 0-7.176 3.218-7.176 7.173s3.22 7.176 7.176 7.176 7.176-3.218 7.176-7.176c0-3.955-3.218-7.173-7.176-7.173z",
+    fillColor: '#000000',
+    fillOpacity: 1,
+    anchor: new google.maps.Point(0,0),
+    strokeWeight: 0,
+    scale: 1
+        };
     var myMarker = new google.maps.Marker(
     {
         position: threesheets,
         map: threesheetsmap,
         title:"threesheets",
-        icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 10
-        }
+        icon: marker
    });
 }
     </script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOBn8zO_WqLRejDOX925Xwbvcn1mXQiLg&libraries=places&sensor=false&callback=initMap"></script>   
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsIyPhCt4C8bdl-uO-rcHBlbuXKNS05cE&libraries=places&sensor=false&callback=initMap"></script>   
     </div>
     <div class="flex-child-shrink"> 
       <div class="footer row small-collapse expanded align-center">

@@ -63,6 +63,9 @@ social:
 - title: Twitter
   link: https://www.twitter.com/threesheetslondon
   short: "@threesheetslondon"
+- title: Newsletter
+  link: https://mailchimp.com
+  short: "Sign-Up"
 compress_html:
   comments:
   - "<!-- "

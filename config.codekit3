@@ -201,10 +201,10 @@
 		"oAP": "\/_posts\/2017-03-09-tristique-fringilla-sem.markdown",
 		"oF": 0
 		},
-	"\/_posts\/2017-04-19-saari-win-european-award.markdown": {
+	"\/_posts\/2017-04-19-three-sheets-win-european-award.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2017-04-19-saari-win-european-award.markdown",
+		"oAP": "\/_posts\/2017-04-19-three-sheets-win-european-award.markdown",
 		"oF": 0
 		},
 	"\/_posts\/2017-04-19-venenatis-tortor.markdown": {
@@ -459,12 +459,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/journal.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/journal.html",
 		"oF": 0
 		},
 	"\/_site\/journal\/fermentum-ipsum-amet\/index.html": {
@@ -3227,7 +3221,7 @@
 	"\/bower_components\/jquery-smooth-scroll\/jquery.smooth-scroll.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/jquery-smooth-scroll\/jquery.smooth-scroll.js",
 		"oF": 0,
 		"sC": 1,
@@ -5141,7 +5135,7 @@
 	"\/bower_components\/wow\/dist\/wow.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/wow\/dist\/wow.js",
 		"oF": 0,
 		"sC": 1,
@@ -5442,6 +5436,18 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/motion-ui\/dist\/motion-ui.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery-smooth-scroll\/jquery.smooth-scroll.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"position": 5,
 			"type": 0
 			}
 		]
