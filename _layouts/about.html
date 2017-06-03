@@ -17,7 +17,7 @@ layout: default
   </div>
 
   {% for section in page.section %}
-    <div class="row align-center about__section wow animate-fade-in-up">
+    <div class="row align-center about__section wow animate-fade-in">
       <div class="small-12 medium-8 columns">
         <h2>{{section.title}}</h2>
         {{section.text | markdownify}}
@@ -25,7 +25,7 @@ layout: default
     </div>
   {% endfor %}
   
-  <div class="row align-center about__press wow animate-fade-in-up">
+  <div class="row align-center about__press wow animate-fade-in">
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Press</h2>        
         {% for press in page.press %}

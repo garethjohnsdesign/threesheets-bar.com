@@ -17,7 +17,7 @@ layout: default
   <div class="12-columns">
     {% assign menu = site.menu | sort: 'position' %}
     {% for section in menu %}
-      <div class="row align-center menu__section wow animate-fade-in-up" id="{{section.type | slugify}}">
+      <div class="row align-center menu__section wow animate-fade-in" id="{{section.type | slugify}}">
         <div class="expand columns">
           <div class="menu__section__title"><h2>{{section.title}}</h2></div>
           {% for menu-item in section.menu-item %}

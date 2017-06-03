@@ -3288,15 +3288,8 @@ body {
   cursor: default; }
 
 body {
-  opacity: 1;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   height: 100%; }
 
-/*
-body.fade-out {
-  opacity: 0;
-}
-*/
 svg {
   max-width: 100%; }
 
@@ -3312,20 +3305,8 @@ img {
 :focus {
   outline: 0; }
 
-[data-sticky] {
-  width: 100%; }
-
 a {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-
-.container {
-  height: 100vh;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
-  @media print, screen and (min-width: 40em) {
-    .container {
-      padding-top: 0rem;
-      padding-bottom: 0rem; } }
 
 .animate-fade-in {
   animation-name: fade-0-to-100;
@@ -3375,6 +3356,27 @@ h3 {
   letter-spacing: 0.15rem;
   text-transform: uppercase; }
 
+.page {
+  padding-top: 1rem; }
+  @media print, screen and (min-width: 40em) {
+    .page {
+      padding-top: 3rem; } }
+  @media print, screen and (min-width: 64em) {
+    .page {
+      padding-top: 3rem; } }
+
+.page .row {
+  padding-bottom: 4rem; }
+
+.container {
+  height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  @media print, screen and (min-width: 40em) {
+    .container {
+      padding-top: 0rem;
+      padding-bottom: 0rem; } }
+
 .navigation {
   z-index: 100000;
   font-family: "P22UndergroundPro-Book", sans-serif;
@@ -3388,40 +3390,21 @@ h3 {
   letter-spacing: 0.125rem;
   padding: 0rem 0rem 2rem 0rem; }
 
-.footer {
-  font-family: "P22UndergroundPro-Book", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.125rem;
-  padding: 0rem 0rem 2rem 0rem; }
-  .footer p {
-    margin-bottom: 0.5rem; }
-
-.page {
-  padding-top: 1rem; }
-  @media print, screen and (min-width: 40em) {
-    .page {
-      padding-top: 3rem; } }
-  @media print, screen and (min-width: 64em) {
-    .page {
-      padding-top: 3rem; } }
-
-.page .row {
-  padding-bottom: 4rem; }
-
-.index__logo-and-tagline {
-  padding: 4rem 0rem; }
-
 .index__logo {
   padding: 0rem 0rem 4rem 0rem; }
   @media screen and (max-width: 39.9375em) {
     .index__logo {
       padding: 0rem; } }
 
+.index__logo-and-tagline {
+  padding: 4rem 0rem; }
+
 .menu__sub-navigation {
   font-family: "P22UndergroundPro-Book", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.125rem; }
   .menu__sub-navigation a {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     color: #A0A0A0; }
     .menu__sub-navigation a:hover {
       color: #222222; }
@@ -3450,15 +3433,6 @@ h3 {
   letter-spacing: 0.125rem;
   color: #A0A0A0; }
 
-/*
-.menu__section p {
-  padding-top: 0.5rem;
-}
-
-.menu__price {
-  padding-top: 0.5rem;
-}
-*/
 .about p a {
   border-bottom: 1px solid #222222; }
 
@@ -3500,6 +3474,7 @@ h3 {
   padding-bottom: 0.5rem; }
 
 .contact__follow__link a {
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   color: #A0A0A0; }
   .contact__follow__link a:hover {
     color: #222222; }
@@ -3512,9 +3487,18 @@ h3 {
       height: 30rem; } }
 
 .contact__colophon a {
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   color: #A0A0A0; }
   .contact__colophon a:hover {
     color: #222222; }
 
 .instagram img {
   margin-bottom: 2rem; }
+
+.footer {
+  font-family: "P22UndergroundPro-Book", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  padding: 0rem 0rem 2rem 0rem; }
+  .footer p {
+    margin-bottom: 0.5rem; }

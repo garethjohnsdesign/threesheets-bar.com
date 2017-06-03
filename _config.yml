@@ -47,8 +47,8 @@ email: info@threesheets-bar.com
 address: 510b Kingsland Road, London E8 4AE
 address-link: https://goo.gl/maps/XR1xqbCxPG52
 phone: "+44 (0)77 1864 8771"
-google_site_verification: 
-analytics: 
+google_site_verification: U6C1gmQaOX2lrvynt1Mc9NSrvm0Y42NIsNkkx4aYLPo
+analytics: UA-100321330-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
@@ -61,8 +61,8 @@ social:
   link: https://www.instagram.com/threesheetslondon
   short: "@threesheetslondon"
 - title: Twitter
-  link: https://www.twitter.com/threesheetslondon
-  short: "@threesheetslondon"
+  link: https://www.twitter.com/threesheetsldn
+  short: "@threesheetsldn"
 - title: Newsletter
   link: https://mailchimp.com
   short: Sign-Up

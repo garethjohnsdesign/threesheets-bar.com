@@ -2,16 +2,17 @@
 //
 //   1. Global
 //   2. Mixins
-//   3. Typography
-//   4. Page
-//   5. Navigation
-//   6. Index
+//   3. Animations
+//   4. Typography
+//   5. Layout
+//   6. Navigation
+//   7. Index
 //   7. Excerpt
-//   8. Projects
-//   9. Project
-//   10. Profile
-//   11. Services
-//   12. Contact
+//   8. Menu
+//   9. About
+//   10. Journal
+//   11. Contact
+//   12. Instagram
 //   13. Footer
 
 // 1. Global
@@ -22,16 +23,8 @@ body {
 }
 
 body {
-  opacity: 1;
-  transition: $primary-transition;
   height: 100%;
 }
-
-/*
-body.fade-out {
-  opacity: 0;
-}
-*/
 
 svg {
   max-width: 100%;
@@ -52,31 +45,12 @@ img {
   outline: 0;
 }
 
-[data-sticky] {
-  width: 100%;
-}
-
 a {
   transition: $primary-transition;
 }
 
-.container {
-  height: 100vh;  
-  @include breakpoint(small) {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  }
-  @include breakpoint(medium) {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  }
-}
-
-
-
 // 2. Mixins
 // ---------
-
 
 @mixin padding {
   padding-bottom: 3rem;
@@ -84,7 +58,7 @@ a {
 
 @mixin links ($link, $hover) {
   a {
-//     transition: $primary-transition;
+    transition: $primary-transition;
     color: $link;
     &:hover {
       color: $hover;   
@@ -104,8 +78,8 @@ a {
   letter-spacing: 0.125rem;
 }
 
-// 2. Animations
-// ---------
+// 3. Animations
+// -------------
 
 .animate-fade-in {
   @include mui-animation(fade);
@@ -117,7 +91,7 @@ a {
   animation-duration: 0.5s;
 }
 
-// 3. Typography
+// 4. Typography
 // -------------
 
 .uppercase {
@@ -147,29 +121,7 @@ h3 {
   text-transform: uppercase;
 }
 
-// 5. Navigation
-// ------
-
-.navigation {
-  z-index: 100000;
-  @include sans;
-  padding: 2rem 0rem 0rem 0rem;
-}
-
-.navigation__mobile {
-  @include sans;
-  padding: 0rem 0rem 2rem 0rem;
-}
-
-.footer {
-  @include sans;
-  padding: 0rem 0rem 2rem 0rem;
-  p {
-    margin-bottom: 0.5rem;
-  }
-}
-
-// 4. Page
+// 5. Layout
 // ------
 
 .page {
@@ -188,30 +140,53 @@ h3 {
   padding-bottom: 4rem;
 }
 
+.container {
+  height: 100vh;  
+  @include breakpoint(small) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  @include breakpoint(medium) {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  }
+}
 
-// 4. Index
+// 6. Navigation
+// -------------
+
+.navigation {
+  z-index: 100000;
+  @include sans;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.navigation__mobile {
+  @include sans;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+// 7. Index
 // ------
 
+.index__logo {
+  padding: 0rem 0rem 4rem 0rem;
+  @include breakpoint(small only) {
+    padding: 0rem;
+  }
+}
 
 .index__logo-and-tagline {
   padding: 4rem 0rem;
 }
 
-.index__logo {
-  padding: 0rem 0rem 4rem 0rem;
-  @include breakpoint(small only) {
-  padding: 0rem;
-  }
-}
-
-// 4. Menu
+// 8. Menu
 // -------
 
 .menu__sub-navigation {
   @include sans;
   @include links ($color--star-dust, $color--black);
 }
-
 
 .menu__section {
   padding-bottom: 2rem;
@@ -239,19 +214,7 @@ h3 {
   color: $color--star-dust;
 }
 
-
-/*
-.menu__section p {
-  padding-top: 0.5rem;
-}
-
-.menu__price {
-  padding-top: 0.5rem;
-}
-*/
-
-
-// 4. About
+// 9. About
 // ----------
 
 .about p a {
@@ -278,7 +241,7 @@ h3 {
   color: $color--star-dust;
 }
 
-// 4. Journal
+// 10. Journal
 // ----------
 
 .journal p a {
@@ -290,9 +253,8 @@ h3 {
   color: $color--star-dust;
 }
 
-// 4. Contact
+// 11. Contact
 // ----------
-
 
 .contact__follow {
   @include sans;
@@ -324,7 +286,20 @@ h3 {
   @include links ($color--star-dust, $color--black);
 }
 
+// 12. Instagram
+// ----------
 
 .instagram img {
   margin-bottom: 2rem;
+}
+
+// 13. Footer
+// ----------
+
+.footer {
+  @include sans;
+  padding: 0rem 0rem 2rem 0rem;
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
