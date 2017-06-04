@@ -31,3 +31,6 @@ $(document).ready(function () {
    easing: 'ease-in-out-quart', 
    duration: 600,  once: false });            
 });
+
+
+$(document).foundation();
