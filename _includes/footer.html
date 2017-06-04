@@ -1,13 +1,14 @@
 <div class="footer row small-collapse expanded align-center">
   
-  <div class="shrink columns show-for-medium">
+  <div class="shrink columns show-for-medium" {% if page.layout == "index" %}data-aos="fade-up" data-aos-offset="0" data-aos-delay="500"{% endif %}>
+
     <ul class="menu align-middle">
       <li><a href="/contact/">510b Kingsland Road, London E8 4AE</a></li>
       <li><a href="mailto:{{site.email}}">{{site.email}}</a></li>
     </ul>
   </div>
   
-  <div class="shrink columns show-for-small-only text-center">
+  <div class="shrink columns show-for-small-only text-center" {% if page.layout == "index" %}data-aos="fade-up" data-aos-offset="0" data-aos-delay="500"{% endif %}>
       <p><a href="/contact/">510b Kingsland Road E8 4AE</a></p>
       <p><a href="mailto:{{site.email}}">{{site.email}}</a></p>
   </div>

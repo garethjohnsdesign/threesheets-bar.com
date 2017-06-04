@@ -5,7 +5,7 @@ layout: default
 <!-- Journal -->
 <section class="journal page">
   {% for post in site.posts limit:site.per_page %}
-  <div class="row align-center wow animate-fade-in">
+  <div class="row align-center" data-aos="animate-fade-in">
       <div class="small-11 medium-8 columns journal__post">
       <h3>{{ post.title }}</h3>
       <h6>{{ post.date | date: site.date_format }}</h6>

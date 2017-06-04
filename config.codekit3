@@ -404,11 +404,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/assets\/js\/app.js": {
+	"\/_site\/assets\/js\/init-aos.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
+		"oAP": "\/_site\/assets\/js\/min\/init-aos-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -422,11 +422,11 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/assets\/js\/min\/app-min.js": {
+	"\/_site\/assets\/js\/min\/init-aos-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
+		"oAP": "\/_site\/assets\/js\/min\/min\/init-aos-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -637,10 +637,10 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/_site\/uploads\/ThreeSheets_Menu_June.pdf": {
+	"\/_site\/uploads\/three-sheets-menu-june.pdf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/uploads\/ThreeSheets_Menu_June.pdf",
+		"oAP": "\/_site\/uploads\/three-sheets-menu-june.pdf",
 		"oF": 0
 		},
 	"\/_uploads\/about-01.jpg": {
@@ -907,6 +907,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/min\/init-aos-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/init-aos-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/min\/instafeed-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -933,6 +942,19 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/scss\/_animate-on-scroll.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_animate-on-scroll.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/scss\/_carousel.scss": {
 		"aP": 0,
@@ -1084,6 +1106,277 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/bower_components\/aos\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/aos\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/aos\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/aos\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/aos\/demo\/async.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/demo\/async.html",
+		"oF": 0
+		},
+	"\/bower_components\/aos\/demo\/css\/styles.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/demo\/css\/styles.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/aos\/demo\/simple.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/demo\/simple.html",
+		"oF": 0
+		},
+	"\/bower_components\/aos\/dist\/aos.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/dist\/aos.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/aos\/dist\/aos.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/dist\/aos.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/aos\/dist\/aos.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/dist\/aos.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/dist\/aos.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/dist\/aos.js.map",
+		"oF": 0
+		},
+	"\/bower_components\/aos\/karma.conf.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/karma.conf.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/aos\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/aos\/src\/js\/aos.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/src\/js\/aos.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/helpers\/calculateOffset.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/helpers\/calculateOffset.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/helpers\/detector.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/helpers\/detector.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/helpers\/elements.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/helpers\/elements.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/helpers\/handleScroll.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/helpers\/handleScroll.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/helpers\/prepare.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/helpers\/prepare.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/libs\/observer.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/libs\/observer.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/js\/libs\/offset.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/js\/libs\/offset.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/aos\/src\/sass\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/sass\/_animations.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/aos\/src\/sass\/_core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/sass\/_core.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/aos\/src\/sass\/_easing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/aos\/src\/sass\/_easing.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/aos\/src\/sass\/aos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/src\/sass\/aos.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/aos\/webpack.config.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/aos\/webpack.config.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/bower_components\/desandro-matches-selector\/.bower.json": {
 		"ft": 524288,
@@ -5759,7 +6052,7 @@
 	"\/bower_components\/wow\/dist\/wow.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/bower_components\/wow\/dist\/wow.js",
 		"oF": 0,
 		"sC": 1,
@@ -6100,7 +6393,7 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/wow\/dist\/wow.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
 			"position": 7,
 			"type": 0
 			}

@@ -81,9 +81,22 @@ a {
 // 3. Animations
 // -------------
 
+[data-aos="animate-fade-in"] {
+  opacity: 0;
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: 1;
+  }
+}
+
 .animate-fade-in {
   @include mui-animation(fade);
   animation-duration: 0.5s;
+}
+
+.animate-fade-in-slow {
+  @include mui-animation(fade);
+  animation-duration: 2s;
 }
 
 .animate-fade-in-up {

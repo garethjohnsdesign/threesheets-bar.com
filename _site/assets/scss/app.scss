@@ -2,7 +2,7 @@
 
 // @import 'loading';
 @import 'fonts';
-// @import 'animate';
+@import 'animate-on-scroll';
 @import 'colors';
 @import 'typography';
 @import 'transitions';
@@ -29,7 +29,7 @@
 // @include foundation-menu-icon;
 // @include foundation-drilldown-menu;
 @include foundation-dropdown;
-@include foundation-dropdown-menu;
+// @include foundation-dropdown-menu;
 // @include foundation-flex-video;
 // @include foundation-label;
 // @include foundation-media-object;
