@@ -3244,7 +3244,7 @@ Single-colored icons can be modified like so:
   font-size: 5rem; }
 
 .overlay {
-  z-index: 0;
+  z-index: 1;
   position: fixed;
   display: flex;
   align-items: stretch;
@@ -3258,7 +3258,7 @@ Single-colored icons can be modified like so:
   transition: opacity .35s, visibility .35s;
   overflow: hidden; }
   .overlay.open {
-    opacity: 0.98;
+    opacity: 0.95;
     visibility: visible; }
   .overlay nav {
     display: flex;
@@ -3276,7 +3276,9 @@ Single-colored icons can be modified like so:
     margin-top: -2rem;
     margin-bottom: 0rem; }
     .overlay ul li {
-      font-family: "TiemposText-Regular", serif;
+      font-family: "P22UndergroundPro-Book", sans-serif;
+      letter-spacing: 0.16rem;
+      text-transform: uppercase;
       font-size: 1.5rem;
       padding: 1rem;
       min-height: 2rem;
@@ -3377,12 +3379,20 @@ h3 {
       padding-top: 0rem;
       padding-bottom: 0rem; } }
 
+/*
+div.flex-child-shrink {
+  z-index: 2;
+}
+*/
 .navigation {
-  z-index: 100000;
+  z-index: 2;
   font-family: "P22UndergroundPro-Book", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.125rem;
-  padding: 2rem 0rem 0rem 0rem; }
+  padding: 1rem 0rem 0rem 0rem; }
+  @media print, screen and (min-width: 40em) {
+    .navigation {
+      padding: 2rem 0rem 0rem 0rem; } }
 
 .navigation__mobile {
   font-family: "P22UndergroundPro-Book", sans-serif;

@@ -15,7 +15,7 @@ layout: default
 
 <section class="page">
   <div class="row align-center">
-    <div class="12-columns">
+    <div class="small-12 columns">
       {% assign menu = site.menu | sort: 'position' %}
       {% for section in menu %}
         <div class="row align-center menu__section wow animate-fade-in" id="{{section.type | slugify}}">
@@ -39,10 +39,10 @@ layout: default
   </div>
   
   <div class="row align-center">
-    <div class="12-columns">
-      Test
+    <div class="shrink columns">
+      <a class="button hollow uppercase sans" href="https://www.dropbox.com/s/ehylxouxz25bsx7/three-sheets-menu-june.pdf?dl=1">Download Menu</a>
     </div>
-  </div>
+  </div>  
   
 </section>
   

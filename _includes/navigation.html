@@ -1,7 +1,6 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-<!-- Navigation -->
-<div class="navigation">
+<div class="navigation flex-child-shrink">
   <div class="shrink columns show-for-medium">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
@@ -33,4 +32,3 @@
     </button>
   </div>
 </div>
-<!-- End Navigation -->

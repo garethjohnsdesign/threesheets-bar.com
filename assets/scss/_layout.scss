@@ -152,13 +152,24 @@ h3 {
   }
 }
 
+/*
+div.flex-child-shrink {
+  z-index: 2;
+}
+*/
+
 // 6. Navigation
 // -------------
 
 .navigation {
-  z-index: 100000;
+  z-index: 2;
   @include sans;
+  @include breakpoint(small) {
+  padding: 1rem 0rem 0rem 0rem;
+  }
+  @include breakpoint(medium) {
   padding: 2rem 0rem 0rem 0rem;
+  }
 }
 
 .navigation__mobile {
