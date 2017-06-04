@@ -1,6 +1,3 @@
-$(document).foundation();
-
-
 // 1. Smooth Scroll
 // ----------------
 
