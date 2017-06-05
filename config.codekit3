@@ -404,11 +404,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/assets\/js\/init-aos.js": {
+	"\/_site\/assets\/js\/app.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/js\/min\/init-aos-min.js",
+		"oAP": "\/_site\/assets\/js\/min\/app-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -418,6 +418,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/min\/instafeed-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

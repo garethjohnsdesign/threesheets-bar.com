@@ -1,3 +1,5 @@
+$(document).foundation();
+
 // 1. Smooth Scroll
 // ----------------
 
@@ -21,16 +23,15 @@ arrowShape: 'M100,46.875H11.9688l17.4688-17.4688L25,25L0,50l25,25l4.4062-4.4062L
 // 3. Animate on Scroll
 // --------------------
 
-$(window).on('resize', function () { AOS.refresh(); });
-$(window).on('load', function() { setTimeout(AOS.refreshHard, 150); });
-
 $(document).ready(function () {
   AOS.init({ 
-   startEvent: 'load', 
    offset: 64,
    easing: 'ease-in-out-quart', 
    duration: 600,  once: false });            
 });
 
-
-$(document).foundation();
+/*
+$(window).on('resize', function () { AOS.refresh(); });
+$(window).on('load', function() { setTimeout(AOS.refreshHard, 150); });
+$(window).on('resize', function () { AOS.refresh(); });
+*/
