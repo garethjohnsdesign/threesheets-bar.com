@@ -29,9 +29,3 @@ $(document).ready(function () {
    easing: 'ease-in-out-quart', 
    duration: 600,  once: false });            
 });
-
-/*
-$(window).on('resize', function () { AOS.refresh(); });
-$(window).on('load', function() { setTimeout(AOS.refreshHard, 150); });
-$(window).on('resize', function () { AOS.refresh(); });
-*/
