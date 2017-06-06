@@ -1,6 +1,6 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-<div class="navigation flex-child-shrink" {% if page.layout == "index" %}data-aos="fade-down" data-aos-offset="0" data-aos-delay="500"{% endif %}>
+<div class="navigation flex-child-shrink" {% if page.layout == "home" %}data-aos="fade-down" data-aos-offset="0" data-aos-delay="500"{% endif %}>
   <div class="shrink columns show-for-medium">
     <ul class="menu align-center">
       {% for entry in site.data.navigation %}
@@ -27,7 +27,7 @@
   </div>
   
   <div class="shrink columns show-for-small-only navigation__mobile">
-    <button class="hamburger hamburger--slider" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
+    <button class="hamburger hamburger--collapse" data-toggler=".is-active" id="toggle" type="button" data-toggle="overlay-mobile toggle">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>

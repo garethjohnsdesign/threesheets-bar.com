@@ -89,21 +89,6 @@ a {
   }
 }
 
-.animate-fade-in {
-  @include mui-animation(fade);
-  animation-duration: 0.5s;
-}
-
-.animate-fade-in-slow {
-  @include mui-animation(fade);
-  animation-duration: 2s;
-}
-
-.animate-fade-in-up {
-  @include mui-animation(slide(in, up, 2rem), fade);
-  animation-duration: 0.5s;
-}
-
 // 4. Typography
 // -------------
 

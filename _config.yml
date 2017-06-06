@@ -1,5 +1,8 @@
 ---
 title: Three Sheets
+description: A neighbourhood cocktail bar and coffee shop
+url: http://threesheets-bar.com
+permalink: pretty
 timezone: UTC
 collections:
   menu:
@@ -17,9 +20,6 @@ defaults:
     type: posts
   values:
     permalink: "/journal/:title/"
-url: http://threesheets-bar.com
-description: A neighbourhood cocktail bar and coffee shop
-permalink: pretty
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -36,6 +36,8 @@ gems:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-default-layout
+- jekyll-mentions
 markdown: kramdown
 kramdown:
   input: GFM
@@ -72,3 +74,4 @@ compress_html:
   - " -->"
   blanklines: true
   profile: false
+jekyll-mentions: https://instagram.com

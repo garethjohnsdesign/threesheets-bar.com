@@ -5,18 +5,16 @@ layout: default
 <section class="contact page">
   
   <div class="row align-center" data-aos="animate-fade-in">
-    <div class="small-12 medium-8 columns">
-        <div id="threesheets_canvas" class="contact__map"></div>    
+    <div class="small-12 medium-10 large-8 columns">
+      <div id="threesheets_canvas" class="contact__map"></div>    
     </div>
   </div>
-  
   
   <div class="row align-center contact__address" data-aos="animate-fade-in">
   	<div class="small-12 medium-8 columns text-center">
     	<p class="sans"><a href="{{site.address-link}}" target="_blank">{{site.address}}</a> — <a href="{{site.address-link}}" target="_blank">Map</a></p>
-<p class="sans">Monday-Friday — {{page.monday-friday}}<br>
-Saturday — {{page.saturday}}</p>
-<p class="sans">Three Sheets is closed on Sundays</p>
+      <p class="sans">Monday-Friday — {{page.monday-friday}}<br>Saturday — {{page.saturday}}</p>
+      <p class="sans">Three Sheets is closed on Sundays</p>
   	</div>
   </div>
   
@@ -24,8 +22,7 @@ Saturday — {{page.saturday}}</p>
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Contact</h2>
     	<p>{{content}}</p>
-<p class="sans"><a href="tel:{{site.phone}}">{{site.phone}}</a><br><a href="{{site.email}}">{{site.email}}</a></p>
-</p>
+      <p class="sans"><a href="tel:{{site.phone}}">{{site.phone}}</a><br><a href="{{site.email}}">{{site.email}}</a></p>
   	</div>
   </div>
   
@@ -34,8 +31,8 @@ Saturday — {{page.saturday}}</p>
     	<h2>Follow</h2>
     	{% for social in site.social %}
     	<div class="contact__follow__section">
-            <div class="contact__follow__title"><a href="{{social.link}}">{{social.title}}</a></div>
-            <div class="contact__follow__link"><a href="{{social.link}}">{{social.short}}</a></div>
+        <div class="contact__follow__title"><a href="{{social.link}}">{{social.title}}</a></div>
+        <div class="contact__follow__link"><a href="{{social.link}}">{{social.short}}</a></div>
       </div>
       {% endfor %}
   	</div>
@@ -47,9 +44,6 @@ Saturday — {{page.saturday}}</p>
   	</div>
   </div>
   
-
-  
 </section>
-
 
 {% include map-script.html %} 

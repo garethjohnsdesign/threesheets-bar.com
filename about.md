@@ -52,4 +52,3 @@ press:
   link: http://www.google.com
 layout: about
 ---
-

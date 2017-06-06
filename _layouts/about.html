@@ -2,23 +2,21 @@
 layout: default
 ---
 
-<section class="about page">
+<section class="page">
    
   <div class="row align-center about__carousel" data-aos="animate-fade-in">
   	<div class="small-12 medium-8 columns text-center">
-    	
-<div class="carousel">
-{% for image in page.images %}
-  <img src="{{image}}">
-{% endfor %}
-</div>
-<!-- End Food Carousel -->
+      <div class="carousel">
+        {% for image in page.images %}
+          <img src="{{image}}">
+        {% endfor %}
+      </div>
   	</div>
   </div>
 
   {% for section in page.section %}
-    <div class="row align-center about__section" data-aos="animate-fade-in">
-      <div class="small-12 medium-8 columns">
+    <div class="row align-center about__section">
+      <div class="small-12 medium-8 columns" data-aos="animate-fade-in">
         <h2>{{section.title}}</h2>
         {{section.text | markdownify}}
       </div>
@@ -28,13 +26,12 @@ layout: default
   <div class="row align-center about__press" data-aos="animate-fade-in">
   	<div class="small-12 medium-8 columns text-center">
     	<h2>Press</h2>        
-        {% for press in page.press %}
-    	<div class="about__press__section" data-aos="animate-fade-in">
-            <div class="about__press__title"><a href="{{press.link}}" target="_blank">{{press.quote}}</a></div>
-            <div class="about__press__link"><a href="{{press.link}}" target="_blank">— {{press.cite}}</a></div>
+      {% for press in page.press %}
+    	<div class="about__press__section">
+        <div class="about__press__title"><a href="{{press.link}}" target="_blank">{{press.quote}}</a></div>
+        <div class="about__press__link"><a href="{{press.link}}" target="_blank">— {{press.cite}}</a></div>
       </div>
       {% endfor %}
-      
   	</div>
   </div>
   

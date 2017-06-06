@@ -168,13 +168,10 @@
 ]
     };
 
-
-
-    var threesheetsmap = new google.maps.Map(document.getElementById("threesheets_canvas"), threesheetsoptions);
-    
+    var threesheetsmap = new google.maps.Map(document.getElementById("threesheets_canvas"), threesheetsoptions);    
     var marker = {
  path: "M8.122 18.071c-4.555-0.473-8.117-4.334-8.122-9.012 0-4.995 4.066-9.059 9.062-9.059s9.062 4.063 9.062 9.059c0 4.678-3.565 8.539-8.119 9.012v13.929h-1.883v-13.929zM9.064 1.883c-3.956 0-7.176 3.218-7.176 7.173s3.22 7.176 7.176 7.176 7.176-3.218 7.176-7.176c0-3.955-3.218-7.173-7.176-7.173z",
-    fillColor: '#000000',
+    fillColor: "#000000",
     fillOpacity: 1,
     anchor: new google.maps.Point(0,0),
     strokeWeight: 0,
@@ -189,7 +186,7 @@
         icon: marker
    });
 
-}
+};
     </script>
     
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsIyPhCt4C8bdl-uO-rcHBlbuXKNS05cE&libraries=places&sensor=false&callback=initMap"></script>  
