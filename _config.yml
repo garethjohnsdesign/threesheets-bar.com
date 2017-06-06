@@ -1,8 +1,5 @@
 ---
 title: Three Sheets
-description: A neighbourhood cocktail bar and coffee shop
-url: http://threesheets-bar.com
-permalink: pretty
 timezone: UTC
 collections:
   menu:
@@ -20,6 +17,9 @@ defaults:
     type: posts
   values:
     permalink: "/journal/:title/"
+description: A neighbourhood cocktail bar and coffee shop
+url: http://threesheets-bar.com
+permalink: pretty
 exclude:
 - Gemfile
 - Gemfile.lock
