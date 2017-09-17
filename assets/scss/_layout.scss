@@ -1,0 +1,314 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Mixins
+//   3. Animations
+//   4. Typography
+//   5. Layout
+//   6. Navigation
+//   7. Index
+//   7. Excerpt
+//   8. Menu
+//   9. About
+//   10. Journal
+//   11. Contact
+//   12. Instagram
+//   13. Footer
+
+// 1. Global
+// ---------
+
+body {  
+  cursor: default;
+}
+
+body {
+  height: 100%;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+:focus {
+  outline: 0;
+}
+
+a {
+  transition: $primary-transition;
+}
+
+// 2. Mixins
+// ---------
+
+@mixin padding {
+  padding-bottom: 3rem;
+}
+
+@mixin links ($link, $hover) {
+  a {
+    transition: $primary-transition;
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie);
+}
+
+@mixin sans {
+  font-family: $sans-typeface;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+// 3. Animations
+// -------------
+
+[data-aos="animate-fade-in"] {
+  opacity: 0;
+  transition-property: opacity;
+  &.aos-animate {
+    opacity: 1;
+  }
+}
+
+// 4. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  text-transform: uppercase;
+}
+
+h2 {
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  letter-spacing: 0.25rem;
+}
+
+.sans {
+  font-family: $sans-typeface;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+}
+
+// 5. Layout
+// ------
+
+.page {
+  @include breakpoint(small) {
+  padding-top: 1rem;
+  }
+  @include breakpoint(medium) { 
+  padding-top: 3rem;
+  }
+  @include breakpoint(large) { 
+  padding-top: 3rem;
+  }
+}
+
+.page .row {
+  padding-bottom: 4rem;
+}
+
+.container {
+  height: 100vh;  
+  @include breakpoint(small) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  }
+  @include breakpoint(medium) {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  }
+}
+
+/*
+div.flex-child-shrink {
+  z-index: 2;
+}
+*/
+
+// 6. Navigation
+// -------------
+
+.navigation {
+  z-index: 2;
+  @include sans;
+  @include breakpoint(small) {
+  padding: 1rem 0rem 0rem 0rem;
+  }
+  @include breakpoint(medium) {
+  padding: 2rem 0rem 0rem 0rem;
+  }
+}
+
+.navigation__mobile {
+  @include sans;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+// 7. Index
+// ------
+
+.index__logo {
+  padding: 0rem 0rem 4rem 0rem;
+  @include breakpoint(small only) {
+    padding: 0rem;
+  }
+}
+
+.index__logo-and-tagline {
+  padding: 4rem 0rem;
+}
+
+// 8. Menu
+// -------
+
+.menu__sub-navigation {
+  @include sans;
+  @include links ($color--star-dust, $color--black);
+}
+
+.menu__section {
+  padding-bottom: 2rem;
+}
+
+.menu__section__title {
+  padding-bottom: 0.5rem;
+}
+
+.menu__item {
+  padding-bottom: 2rem;
+}
+
+.menu__item__title {
+  @include sans;
+  padding-bottom: 0.5rem;
+}
+
+.menu__item__ingredients {
+  padding-bottom: 0.5rem;
+}
+
+.menu__item__price {
+  @include sans;
+  color: $color--star-dust;
+}
+
+// 9. About
+// ----------
+
+.about p a {
+  border-bottom: 1px solid $color--black;
+}
+
+.about__press {
+  @include sans;
+}
+
+.about__press h2 {
+  padding-bottom: 1rem;
+}
+
+.about__press__section {
+  padding-bottom: 2rem;
+}
+
+.about__press__title {
+  padding-bottom: 0.5rem;
+}
+
+.about__press__link a {
+  color: $color--star-dust;
+}
+
+// 10. Journal
+// ----------
+
+.journal p a {
+  border-bottom: 1px solid $color--black;
+}
+
+.journal h6 {
+  @include sans;
+  color: $color--star-dust;
+}
+
+// 11. Contact
+// ----------
+
+.contact__follow {
+  @include sans;
+}
+
+.contact__follow__section {
+  padding-bottom: 1rem;
+}
+
+.contact__follow__title {
+  padding-bottom: 0.5rem;
+}
+
+.contact__follow__link {
+  @include links ($color--star-dust, $color--black);
+}
+
+.contact__map {
+  margin-bottom: 1rem;
+  @include breakpoint(small) {
+  height: 20rem;
+  }
+  @include breakpoint(medium) { 
+  height: 30rem;
+  }
+}
+
+.contact__colophon {
+  @include links ($color--star-dust, $color--black);
+}
+
+// 12. Instagram
+// ----------
+
+.instagram img {
+  margin-bottom: 2rem;
+}
+
+// 13. Footer
+// ----------
+
+.footer {
+  @include sans;
+  padding: 0rem 0rem 2rem 0rem;
+  p {
+    margin-bottom: 0.5rem;
+  }
+}

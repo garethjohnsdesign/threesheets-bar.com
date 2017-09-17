@@ -1,0 +1,52 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body>
+
+<!-- Overlay Menu -->  
+{% include overlay-menu.html %}
+<!-- End Overlay Menu --> 
+
+<div class="row expanded container">
+  <div class="column flex-container align-justify flex-dir-column text-center">
+    
+    <!-- Navigation -->
+    {% include navigation.html %}
+    <!-- End Navigation -->
+    
+    <!-- Content -->
+    <div class="flex-child-shrink animate-fade-in">
+    {{ content }}
+    </div>
+    <!-- End Content --> 
+    
+    <!-- Footer -->
+    <div class="flex-child-shrink"> 
+    {% include footer.html %}
+    </div>
+    <!-- End Footer --> 
+    
+  </div>
+</div>
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>
